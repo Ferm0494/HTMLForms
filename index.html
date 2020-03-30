@@ -5,16 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up page</title>
+    <title>Intuit Clone</title>
 </head>
 
 <body>
 
-    <div>
-        <p>Already have an Intuit account?</p>
-        <a href="">I forgot my User ID or Password</a>
-        <input type="button" value="Sign In">
-    </div>
+    <header>
+        <div>
+            <p>Already have an Intuit account?</p>
+            <a href="">I forgot my User ID or Password</a>
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="button" value="Sign In">
+        </div>
+    </header>
+    
 
     <div>
         <img> <span>Logo</span>
@@ -23,7 +27,7 @@
         <span>turbotax</span>
     </div>
 
-    <form>
+    <form class="main">
 
         <h3>Create an Intuit account</h3>
         <p>One account for everything Intuit, including Mint.</p>
@@ -32,11 +36,28 @@
         <label>Email Adress</label> <br>
         <input type="email" value=""> <br>
         <label>Phone (recommended)</label> <br>
-        <input type="number" value=""> <br>
+        <input type="tel" value=""> <br>
         <label>Password</label> <br>
         <input type="password" value=""> <br>
-        <input type="button" value="Create account">
+        <i class="fa fa-lock" aria-hidden="true"></i>
+        <input type="button" value="Create account"><br>
+        <div>
+            <p>By clicking Create account, you agree to our 
+                <a href="">Terms</a> and have read and acknowledge our <a href="">Privacy Statement.</a></p>
+        </div>
+        <div>
+            Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms</a> of Use.
+        </div>
+        
     </form>
+
+    <footer>
+        <span><a href="">Legal</a></span>
+        <span><a href="">Privacy</a></span>
+        <span><a href="">Security</a></span>
+        <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. 
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
     
 </body>
 
