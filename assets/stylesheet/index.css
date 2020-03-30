@@ -1,0 +1,36 @@
+body {
+    background-color: #ECEEF1;
+    text-align: center;
+}
+
+h3,
+p {
+    width: fit-content;
+}
+
+.colorgray {
+    color: #FDFDFD
+}
+
+.removehorizontalp {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#mainform {
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: #fff;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#policy {
+    width: 50%;
+    background-color: red;
+    word-wrap: break-word;
+}
