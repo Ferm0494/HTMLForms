@@ -10,13 +10,10 @@ body {
 }
 
 footer {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
+    color: #505050;
     text-align: center;
     margin-top: 3%;
-}
-
-input {
-    width: 95%;
-    height: 20px;
 }
 
 h3,
@@ -88,6 +85,17 @@ header button {
     color: #505050;
 }
 
+.graycolor {
+    color: #505050;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
+}
+
+#mediumsize {
+    font-size: 15px;
+    padding-top: 12px;
+
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -99,8 +107,8 @@ header button {
     padding: 25px;
     margin: 0 auto;
     border: 1px solid gray;
-    width: 20rem;
-    height: 31rem;
+    width: 23rem;
+    height: 35rem;
     background-color: #fff;
     align-items: center;
     justify-content: space-around;
@@ -109,11 +117,14 @@ header button {
 
 #policy {
     width: 100%;
+    font-size: 13px;
+    font-style: italic;
     text-align: center;
     background-color: red;
     word-wrap: break-word;
-    color: #505050;
+    
 }
+
 
 #form {
     height: 40rem;
@@ -128,5 +139,5 @@ header button {
     width: 100%;
     border: 1px solid gray;
     border-radius: 3px;
-    height: 30px;
+    height: 35px;
 }
