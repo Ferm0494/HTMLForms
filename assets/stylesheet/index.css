@@ -83,14 +83,10 @@ header button {
 }
 
 .logo span {
-    
     height: 100%;
     padding: 20px 0;
     color: #505050;
-    
 }
-
-
 
 #container {
     display: flex;
@@ -102,21 +98,35 @@ header button {
     display: flex;
     padding: 25px;
     margin: 0 auto;
-    border: 2px groove gray;
+    border: 1px solid gray;
     width: 20rem;
     height: 31rem;
     background-color: #fff;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
     flex-direction: column;
 }
 
 #policy {
-    
     width: 100%;
     text-align: center;
     background-color: red;
     word-wrap: break-word;
     color: #505050;
+}
 
+#form {
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#form input {
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    height: 30px;
 }
