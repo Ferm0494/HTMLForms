@@ -1,25 +1,29 @@
 header {
     float: right;
     background-color: red;
-    
 }
 
 body {
+    width: 50;
+    height: 40px;
     background-color: #ECEEF1;
-    
-    
 }
 
-footer{
+footer {
     text-align: center;
     margin-top: 3%;
 }
- i {
-     float: right;
- }
+
+input {
+    width: 95%;
+    height: 20px;
+}
 
 h3,
 p {
+    background-color: red;
+    padding: 0;
+    margin: 0;
     width: fit-content;
 }
 
@@ -33,24 +37,31 @@ p {
 }
 
 #mainform {
+    position: relative;
     display: flex;
-    padding: 10px;
+    padding: 25px;
     margin: 0 auto;
     width: fit-content;
+    min-width: 25%;
     background-color: #fff;
-    height: fit-content;
     justify-content: center;
     align-items: center;
     flex-direction: column;
- 
 }
 
 .logo {
-    margin-top: 10px;
+    margin-top: 29px;
 }
 
 #policy {
     width: 50%;
     background-color: red;
     word-wrap: break-word;
+}
+
+#subform {
+    width: 50%;
+    display: flex;
+    background-color: green;
+    flex-direction: column;
 }

@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="./assets/stylesheet/index.css" type="text/css">
 </head>
 
-
-
 <body>
 
     <header>
@@ -22,7 +20,6 @@
             <input type="button" value="Sign In">
         </div>
     </header>
-
 
     <div class="logo">
         <img> <span>Logo</span>
@@ -37,17 +34,20 @@
         <p>One account for everything Intuit, including Mint.</p>
         <a href="">Learn more</a> <br>
 
-        <label>Email Adress</label> <br>
-        <input type="email" value=""> <br>
-        <label>Phone (recommended)</label> <br>
-        <i class="fa fa-unlock" aria-hidden="true"><input type="tel" value=""></i>
-        <label>Password</label> <br>
+        <div id="subform">
+            <label>Email Adress</label>
+            <input type="email" value="">
+            <label>Phone (recommended)</label>
+            <i class="fa fa-unlock" aria-hidden="true"><input type="tel" value=""></i>
+            <label>Password</label>
 
-         <br>
-         <input type="password" value="">
-        <i class="fa fa-lock" aria-hidden="true"></i>
 
-        <input type="button" value="Create account"><br>
+            <input type="password" value="">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+
+            <input type="button" value="Create account">
+
+        </div>
         <div class="colorgray" id="policy">
             <p>By clicking Create account, you agree to our
                 <a href="">Terms</a> and have read and acknowledge our <a href="">Privacy Statement.</a></p>
@@ -55,6 +55,8 @@
         <div>
             Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms</a> of Use.
         </div>
+
+
 
     </form>
 
