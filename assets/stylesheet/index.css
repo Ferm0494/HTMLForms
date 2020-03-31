@@ -67,18 +67,30 @@ header button {
     padding: 5px;
 }
 
-.colorgray {
-    color: #fdfdfd;
-}
-
 .removehorizontalp {
     padding-left: 0;
     padding-right: 0;
 }
 
+.center {
+    margin: 0 auto;
+}
+
 .logo {
     margin-top: 29px;
+    display: flex;
+    justify-content: center;
 }
+
+.logo span {
+    
+    height: 100%;
+    padding: 20px 0;
+    color: #505050;
+    
+}
+
+
 
 #container {
     display: flex;
@@ -90,7 +102,9 @@ header button {
     display: flex;
     padding: 25px;
     margin: 0 auto;
+    border: 2px groove gray;
     width: 20rem;
+    height: 31rem;
     background-color: #fff;
     justify-content: center;
     align-items: center;
@@ -98,7 +112,11 @@ header button {
 }
 
 #policy {
-    width: 50%;
+    
+    width: 100%;
+    text-align: center;
     background-color: red;
     word-wrap: break-word;
+    color: #505050;
+
 }
