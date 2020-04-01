@@ -27,6 +27,13 @@ header button {
     margin-right: 15px;
 }
 
+.mintlogo {
+    height: 2.5em;
+    margin: 1.5em 0;
+    padding: 0;
+    width: 3em;
+}
+
 .footerp {
     font-size: 13px;
     color: #505050;
@@ -37,7 +44,6 @@ header button {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
     text-decoration: none;
     color: #0077c5;
-    font-size: 10px;
 }
 
 .bluebutton {
@@ -46,7 +52,11 @@ header button {
     background: #0077c5;
     border-radius: 4px;
     color: #fff;
-    border: 1px solid #505050;
+    border: 1px solid #0077c5;
+}
+
+.bluebutton:hover {
+    background-color: #0684d6;
 }
 
 .sizesm {
@@ -62,6 +72,7 @@ header button {
 
 .sizesm a {
     padding: 5px;
+    font-size: 10px;
 }
 
 .removehorizontalp {
@@ -80,9 +91,11 @@ header button {
 }
 
 .logo span {
-    height: 100%;
-    padding: 20px 0;
-    color: #505050;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    color: gray;
+    align-items: center;
+    font-weight: 600;
 }
 
 .graycolor {
@@ -90,10 +103,32 @@ header button {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
 }
 
+.smalltext {
+    font-size: 10px;
+}
+
+.footerform {
+    background-color: #eceef1;
+    width: 100%;
+    padding: 10px 25px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.createaccount {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    background: #0077c5;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #0077c5;
+}
+
 #mediumsize {
     font-size: 15px;
     padding-top: 12px;
-
 }
 
 #container {
@@ -101,10 +136,15 @@ header button {
     flex-direction: column;
 }
 
+#learnmoreanchor {
+    font-size: 12px;
+}
+
 #mainform {
     position: relative;
     display: flex;
-    padding: 25px;
+    padding: 0 25px;
+    padding-top: 30px;
     margin: 0 auto;
     border: 1px solid gray;
     width: 23rem;
@@ -116,15 +156,16 @@ header button {
 }
 
 #policy {
-    width: 100%;
+    width: 80%;
     font-size: 13px;
     font-style: italic;
     text-align: center;
-    background-color: red;
     word-wrap: break-word;
-    
 }
 
+#policy p {
+    line-height: 2;
+}
 
 #form {
     height: 40rem;
@@ -141,3 +182,8 @@ header button {
     border-radius: 3px;
     height: 35px;
 }
+
+
+/* #mainform a {
+    
+} */
