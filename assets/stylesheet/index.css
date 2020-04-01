@@ -5,15 +5,22 @@ header {
     justify-content: flex-end;
 }
 
+input:active {
+    box-shadow: 4px 4px 10px #74B9EF;
+}
+
 body {
     background-color: #eceef1;
 }
 
 footer {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
+    font-size: 13px;
     color: #505050;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 h3,
@@ -36,6 +43,7 @@ header button {
 
 .footerp {
     font-size: 13px;
+    text-decoration: none;
     color: #505050;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
 }
@@ -124,6 +132,13 @@ header button {
     border-radius: 4px;
     color: #fff;
     border: 1px solid #0077c5;
+}
+
+#password {
+    background-image: url("../imgs/open_lock.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 45px;
 }
 
 #mediumsize {
