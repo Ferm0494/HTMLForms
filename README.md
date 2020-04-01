@@ -2,7 +2,7 @@
 
 ## Built With
 
-- HTML & CSS;
+HTML & CSS;
 
 `Main Branch is htmlForms`
 
