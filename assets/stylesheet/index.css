@@ -6,7 +6,7 @@ header {
 }
 
 input:active {
-    box-shadow: 4px 4px 10px #74B9EF;
+    box-shadow: 4px 4px 10px #74b9ef;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 footer {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     font-size: 13px;
     color: #505050;
     text-align: center;
@@ -45,11 +45,11 @@ header button {
     font-size: 13px;
     text-decoration: none;
     color: #505050;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
 .anchor {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     text-decoration: none;
     color: #0077c5;
 }
@@ -99,7 +99,7 @@ header button {
 }
 
 .logo span {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
     display: flex;
     color: gray;
     align-items: center;
@@ -108,7 +108,7 @@ header button {
 
 .graycolor {
     color: #505050;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
 .smalltext {
